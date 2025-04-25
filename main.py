@@ -1,6 +1,5 @@
-
 import httpx
-from proxy.clients import API_LOCAL
+from clients import API_LOCAL
 from fastapi import FastAPI, Request
 
 app = FastAPI()
